@@ -4,15 +4,13 @@ import com.shopping.api.entities.Product;
 
 import java.util.List;
 
-import javax.validation.Valid;
-
 public interface ProductService
 {
-    Product createProduct( @Valid Product newProduct );
+    Product createProduct( Product newProduct );
 
-    Product updateProduct( @Valid Product updateProduct );
+    Product updateProduct( Product updateProduct );
 
     List<Product> getProducts();
 
-    Product getProductById( Long key );
+    Product getProductById( long key );
 }

@@ -16,7 +16,7 @@ public class BuyerModel
 {
     @JsonInclude( JsonInclude.Include.NON_NULL )
     @Nullable
-    private Long id;
+    private long id;
     private String email;
 
     public Buyer convertToEntity()

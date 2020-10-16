@@ -1,6 +1,7 @@
 package com.shopping.api.services.impl;
 
 import com.shopping.api.entities.Buyer;
+import com.shopping.api.exceptions.BuyerNotFoundException;
 import com.shopping.api.repositories.BuyerRepository;
 import com.shopping.api.services.BuyerService;
 
@@ -37,6 +38,6 @@ public class BuyerServiceImpl implements BuyerService
     @Override
     public Buyer getBuyerById( long buyerId )
     {
-        return buyerRepository.getOne( buyerId );
+        return buyerRepository.findById( buyerId ).orElseThrow( BuyerNotFoundException::new );
     }
 }

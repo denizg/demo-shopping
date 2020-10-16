@@ -16,7 +16,7 @@ public class ProductModel
 {
     @JsonInclude( JsonInclude.Include.NON_NULL )
     @Nullable
-    private Long id;
+    private long id;
     private String name;
     private Integer currentPrice;
 

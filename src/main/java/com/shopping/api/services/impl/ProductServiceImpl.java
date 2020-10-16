@@ -1,6 +1,7 @@
 package com.shopping.api.services.impl;
 
 import com.shopping.api.entities.Product;
+import com.shopping.api.exceptions.ProductNotFoundException;
 import com.shopping.api.repositories.ProductRepository;
 import com.shopping.api.services.ProductService;
 
@@ -41,8 +42,8 @@ public class ProductServiceImpl implements ProductService
     }
 
     @Override
-    public Product getProductById( Long id )
+    public Product getProductById( long id )
     {
-        return productRepository.getOne( id );
+        return productRepository.findById( id ).orElseThrow( ProductNotFoundException::new );
     }
 }

@@ -20,14 +20,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/buyers",
+					"raw": "http://localhost:8080/shopping-api/buyers",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"api",
+						"shopping-api",
 						"buyers"
 					]
 				}
@@ -40,14 +40,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/buyers",
+					"raw": "http://localhost:8080/shopping-api/buyers",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"api",
+						"shopping-api",
 						"buyers"
 					]
 				}
@@ -69,14 +69,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/products",
+					"raw": "http://localhost:8080/shopping-api/products",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"api",
+						"shopping-api",
 						"products"
 					]
 				}
@@ -89,14 +89,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/products",
+					"raw": "http://localhost:8080/shopping-api/products",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"api",
+						"shopping-api",
 						"products"
 					]
 				}
@@ -118,14 +118,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/orders",
+					"raw": "http://localhost:8080/shopping-api/orders",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"api",
+						"shopping-api",
 						"orders"
 					]
 				}
@@ -144,14 +144,14 @@
 					}
 				],
 				"url": {
-					"raw": "http://localhost:8080/api/orders?startDate=2020-10-10&endDate=2020-10-20",
+					"raw": "http://localhost:8080/shopping-api/orders?startDate=2020-10-10&endDate=2020-10-20",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"api",
+						"shopping-api",
 						"orders"
 					],
 					"query": [

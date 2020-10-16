@@ -22,7 +22,7 @@ public class OrderModel
 
     @JsonInclude( JsonInclude.Include.NON_NULL )
     @Nullable
-    private Long id;
+    private long id;
 
     @JsonInclude( JsonInclude.Include.NON_NULL )
     @Nullable
