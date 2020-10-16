@@ -54,7 +54,7 @@ public class OrderController
     private final BuyerService buyerService;
     private final ProductService productService;
 
-    @ApiOperation( "Get all Orders between startDate and finishDate with ISO Date Format {@code yyyy-MM-dd}" )
+    @ApiOperation( "Get all Orders between startDate and finishDate with ISO Date Format {yyyy-MM-dd}" )
     @GetMapping
     public List<OrderModel> getOrdersInaRange(
         final @Valid
